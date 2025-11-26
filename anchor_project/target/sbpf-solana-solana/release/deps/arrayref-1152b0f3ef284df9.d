@@ -1,0 +1,7 @@
+/home/varun/VsCodeProjects/school-of-solana/program-VarunVats9/anchor_project/target/sbpf-solana-solana/release/deps/libarrayref-1152b0f3ef284df9.rmeta: /home/varun/.cargo/registry/src/index.crates.io-6f17d22bba15001f/arrayref-0.3.9/src/lib.rs
+
+/home/varun/VsCodeProjects/school-of-solana/program-VarunVats9/anchor_project/target/sbpf-solana-solana/release/deps/libarrayref-1152b0f3ef284df9.rlib: /home/varun/.cargo/registry/src/index.crates.io-6f17d22bba15001f/arrayref-0.3.9/src/lib.rs
+
+/home/varun/VsCodeProjects/school-of-solana/program-VarunVats9/anchor_project/target/sbpf-solana-solana/release/deps/arrayref-1152b0f3ef284df9.d: /home/varun/.cargo/registry/src/index.crates.io-6f17d22bba15001f/arrayref-0.3.9/src/lib.rs
+
+/home/varun/.cargo/registry/src/index.crates.io-6f17d22bba15001f/arrayref-0.3.9/src/lib.rs:

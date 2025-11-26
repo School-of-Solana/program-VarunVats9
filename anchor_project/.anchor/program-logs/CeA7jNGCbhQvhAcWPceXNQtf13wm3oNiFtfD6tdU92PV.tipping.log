@@ -1,0 +1,21 @@
+Streaming transaction logs mentioning CeA7jNGCbhQvhAcWPceXNQtf13wm3oNiFtfD6tdU92PV. Confirmed commitment
+Transaction executed in slot 5:
+  Signature: 59VLkvGyay89kcdsSRLHruSsJpySExWwAmzdEjBbjyCfJiWD4o1JVxqwFY2unANxKXUpT27B7nkZj9jpPCMSqTmL
+  Status: Ok
+  Log Messages:
+    Program CeA7jNGCbhQvhAcWPceXNQtf13wm3oNiFtfD6tdU92PV invoke [1]
+    Program log: Instruction: InitializeUser
+    Program 11111111111111111111111111111111 invoke [2]
+    Program 11111111111111111111111111111111 success
+    Program CeA7jNGCbhQvhAcWPceXNQtf13wm3oNiFtfD6tdU92PV consumed 11463 of 200000 compute units
+    Program CeA7jNGCbhQvhAcWPceXNQtf13wm3oNiFtfD6tdU92PV success
+Transaction executed in slot 6:
+  Signature: 2Jij66qQcL98qXDMoEYzShb8PJo1KhS7JabUKfsG7bowLZoG1rJRs4KkS6xc2ERBo9gvhDVM2qfhPYL3zSNSKSAw
+  Status: Ok
+  Log Messages:
+    Program CeA7jNGCbhQvhAcWPceXNQtf13wm3oNiFtfD6tdU92PV invoke [1]
+    Program log: Instruction: Tip
+    Program 11111111111111111111111111111111 invoke [2]
+    Program 11111111111111111111111111111111 success
+    Program CeA7jNGCbhQvhAcWPceXNQtf13wm3oNiFtfD6tdU92PV consumed 5709 of 200000 compute units
+    Program CeA7jNGCbhQvhAcWPceXNQtf13wm3oNiFtfD6tdU92PV success

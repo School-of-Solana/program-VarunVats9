@@ -1,0 +1,9 @@
+/home/varun/VsCodeProjects/school-of-solana/program-VarunVats9/anchor_project/target/sbpf-solana-solana/release/deps/libsolana_system_interface-3d5e4843c64dcde1.rmeta: /home/varun/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-system-interface-1.0.0/src/lib.rs /home/varun/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-system-interface-1.0.0/src/error.rs /home/varun/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-system-interface-1.0.0/src/instruction.rs
+
+/home/varun/VsCodeProjects/school-of-solana/program-VarunVats9/anchor_project/target/sbpf-solana-solana/release/deps/libsolana_system_interface-3d5e4843c64dcde1.rlib: /home/varun/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-system-interface-1.0.0/src/lib.rs /home/varun/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-system-interface-1.0.0/src/error.rs /home/varun/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-system-interface-1.0.0/src/instruction.rs
+
+/home/varun/VsCodeProjects/school-of-solana/program-VarunVats9/anchor_project/target/sbpf-solana-solana/release/deps/solana_system_interface-3d5e4843c64dcde1.d: /home/varun/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-system-interface-1.0.0/src/lib.rs /home/varun/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-system-interface-1.0.0/src/error.rs /home/varun/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-system-interface-1.0.0/src/instruction.rs
+
+/home/varun/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-system-interface-1.0.0/src/lib.rs:
+/home/varun/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-system-interface-1.0.0/src/error.rs:
+/home/varun/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-system-interface-1.0.0/src/instruction.rs:

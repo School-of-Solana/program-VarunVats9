@@ -1,79 +1,68 @@
 # Project Description
 
-**Deployed Frontend URL:** [TODO: Link to your deployed frontend]
+**Deployed Frontend URL:** (Add your Vercel/Netlify link here, or remove this line if running locally only)
 
-**Solana Program ID:** [TODO: Your deployed program's public key]
+**Solana Program ID:** `CeA7jNGCbhQvhAcWPceXNQtf13wm3oNiFtfD6tdU92PV`
 
 ## Project Overview
 
 ### Description
-[TODO: Provide a comprehensive description of your dApp. Explain what it does. Be detailed about the core functionality.]
+A decentralized tipping application built on Solana. Users can initialize their account statistics and send SOL tips to other users. The application tracks the total amount of tips sent and received by each user using a Program Derived Address (PDA), ensuring persistent and secure data storage.
 
 ### Key Features
-[TODO: List the main features of your dApp. Be specific about what users can do.]
+- **Initialize Stats**: Create a personal statistics account to track your tipping history.
+- **Send Tips**: Seamlessly transfer SOL to any other Solana wallet.
+- **Track History**: Automatically update and view your total tips sent and received.
+- **Real-time Updates**: View your stats updating instantly after each transaction.
 
-- Feature 1: [Description]
-- Feature 2: [Description]
-- ...
-  
 ### How to Use the dApp
-[TODO: Provide step-by-step instructions for users to interact with your dApp]
-
-1. **Connect Wallet**
-2. **Main Action 1:** [Step-by-step instructions]
-3. **Main Action 2:** [Step-by-step instructions]
-4. ...
+1. **Connect Wallet**: Connect your Phantom or Solflare wallet.
+2. **Initialize**: Click "Initialize Stats" to create your on-chain data account (one-time action).
+3. **Enter Recipient**: Paste the public key of the user you want to tip.
+4. **Enter Amount**: Specify the amount of SOL to send.
+5. **Send Tip**: Click "Send Tip" to transfer funds and update your stats.
 
 ## Program Architecture
-[TODO: Describe your Solana program's architecture. Explain the main instructions, account structures, and data flow.]
+The Tipping dApp uses a straightforward architecture with a single PDA account type to store user data. It leverages Cross-Program Invocations (CPI) to the System Program for transferring SOL.
 
 ### PDA Usage
-[TODO: Explain how you implemented Program Derived Addresses (PDAs) in your project. What seeds do you use and why?]
+The program uses Program Derived Addresses to create unique statistic accounts for each user.
 
 **PDAs Used:**
-- PDA 1: [Purpose and description]
-- PDA 2: [Purpose and description]
+- **UserStats PDA**: Derived from seeds `["user-stats", user_wallet_pubkey]`. This ensures each user has exactly one deterministic stats account that they control.
 
 ### Program Instructions
-[TODO: List and describe all the instructions in your Solana program]
-
 **Instructions Implemented:**
-- Instruction 1: [Description of what it does]
-- Instruction 2: [Description of what it does]
-- ...
+- **initialize_user**: Initializes the `UserStats` account for the signer, setting sent/received counters to 0.
+- **tip**: Transfers SOL from the signer to the recipient using a CPI to the System Program, and increments the signer's `total_tips_sent`.
 
 ### Account Structure
-[TODO: Describe your main account structures and their purposes]
-
 ```rust
-// Example account structure (replace with your actual structs)
 #[account]
-pub struct YourAccountName {
-    // Describe each field
+pub struct UserStats {
+    pub total_tips_sent: u64,     // Total lamports sent by this user
+    pub total_tips_received: u64, // Total lamports received by this user (future feature)
+    pub bump: u8,                 // Bump seed for the PDA
 }
 ```
 
 ## Testing
 
 ### Test Coverage
-[TODO: Describe your testing approach and what scenarios you covered]
+The project includes a TypeScript test suite using Mocha and Chai to verify all program functionalities.
 
 **Happy Path Tests:**
-- Test 1: [Description]
-- Test 2: [Description]
-- ...
+- **Is initialized!**: Verifies that a user can successfully initialize their `UserStats` account and that default values are 0.
+- **Tips a user successfully**: Checks that SOL is correctly transferred to the recipient and that the sender's `total_tips_sent` is updated correctly.
 
 **Unhappy Path Tests:**
-- Test 1: [Description of error scenario]
-- Test 2: [Description of error scenario]
-- ...
+- **Fails to tip with insufficient funds**: Ensures the transaction fails if the user tries to send more SOL than they possess (simulated with a huge amount).
 
 ### Running Tests
 ```bash
-# Commands to run your tests
+cd anchor_project
 anchor test
 ```
 
 ### Additional Notes for Evaluators
-
-[TODO: Add any specific notes or context that would help evaluators understand your project better]
+This project demonstrates the use of PDAs for user-specific data storage and CPIs for native SOL transfers. The frontend integrates with the Solana Wallet Adapter to provide a seamless user experience.

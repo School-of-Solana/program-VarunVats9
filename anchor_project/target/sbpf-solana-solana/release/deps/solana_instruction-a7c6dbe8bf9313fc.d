@@ -1,0 +1,10 @@
+/home/varun/VsCodeProjects/school-of-solana/program-VarunVats9/anchor_project/target/sbpf-solana-solana/release/deps/libsolana_instruction-a7c6dbe8bf9313fc.rmeta: /home/varun/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-instruction-2.3.3/src/lib.rs /home/varun/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-instruction-2.3.3/src/account_meta.rs /home/varun/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-instruction-2.3.3/src/error.rs /home/varun/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-instruction-2.3.3/src/syscalls.rs
+
+/home/varun/VsCodeProjects/school-of-solana/program-VarunVats9/anchor_project/target/sbpf-solana-solana/release/deps/libsolana_instruction-a7c6dbe8bf9313fc.rlib: /home/varun/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-instruction-2.3.3/src/lib.rs /home/varun/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-instruction-2.3.3/src/account_meta.rs /home/varun/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-instruction-2.3.3/src/error.rs /home/varun/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-instruction-2.3.3/src/syscalls.rs
+
+/home/varun/VsCodeProjects/school-of-solana/program-VarunVats9/anchor_project/target/sbpf-solana-solana/release/deps/solana_instruction-a7c6dbe8bf9313fc.d: /home/varun/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-instruction-2.3.3/src/lib.rs /home/varun/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-instruction-2.3.3/src/account_meta.rs /home/varun/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-instruction-2.3.3/src/error.rs /home/varun/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-instruction-2.3.3/src/syscalls.rs
+
+/home/varun/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-instruction-2.3.3/src/lib.rs:
+/home/varun/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-instruction-2.3.3/src/account_meta.rs:
+/home/varun/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-instruction-2.3.3/src/error.rs:
+/home/varun/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-instruction-2.3.3/src/syscalls.rs:

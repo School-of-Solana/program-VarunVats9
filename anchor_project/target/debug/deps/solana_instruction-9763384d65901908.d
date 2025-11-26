@@ -1,0 +1,10 @@
+/home/varun/VsCodeProjects/school-of-solana/program-VarunVats9/anchor_project/target/debug/deps/solana_instruction-9763384d65901908.d: /home/varun/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/solana-instruction-2.3.3/src/lib.rs /home/varun/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/solana-instruction-2.3.3/src/account_meta.rs /home/varun/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/solana-instruction-2.3.3/src/error.rs /home/varun/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/solana-instruction-2.3.3/src/syscalls.rs
+
+/home/varun/VsCodeProjects/school-of-solana/program-VarunVats9/anchor_project/target/debug/deps/libsolana_instruction-9763384d65901908.rlib: /home/varun/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/solana-instruction-2.3.3/src/lib.rs /home/varun/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/solana-instruction-2.3.3/src/account_meta.rs /home/varun/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/solana-instruction-2.3.3/src/error.rs /home/varun/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/solana-instruction-2.3.3/src/syscalls.rs
+
+/home/varun/VsCodeProjects/school-of-solana/program-VarunVats9/anchor_project/target/debug/deps/libsolana_instruction-9763384d65901908.rmeta: /home/varun/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/solana-instruction-2.3.3/src/lib.rs /home/varun/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/solana-instruction-2.3.3/src/account_meta.rs /home/varun/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/solana-instruction-2.3.3/src/error.rs /home/varun/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/solana-instruction-2.3.3/src/syscalls.rs
+
+/home/varun/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/solana-instruction-2.3.3/src/lib.rs:
+/home/varun/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/solana-instruction-2.3.3/src/account_meta.rs:
+/home/varun/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/solana-instruction-2.3.3/src/error.rs:
+/home/varun/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/solana-instruction-2.3.3/src/syscalls.rs:

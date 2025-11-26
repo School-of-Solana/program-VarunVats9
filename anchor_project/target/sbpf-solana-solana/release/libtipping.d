@@ -1,0 +1,1 @@
+/home/varun/VsCodeProjects/school-of-solana/program-VarunVats9/anchor_project/target/sbpf-solana-solana/release/libtipping.rlib: /home/varun/VsCodeProjects/school-of-solana/program-VarunVats9/anchor_project/programs/tipping/src/lib.rs
