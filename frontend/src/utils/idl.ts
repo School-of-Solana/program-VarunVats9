@@ -1,52 +1,122 @@
+/**
+ * Program IDL in camelCase format in order to be used in JS/TS.
+ *
+ * Note that this is only a type helper and is not the actual IDL. The original
+ * IDL can be found at `target/idl/tipping.json`.
+ */
 export type Tipping = {
-    "address": string;
-    "metadata": any;
-    "version": "0.1.0",
-    "name": "tipping",
+    "address": "CeA7jNGCbhQvhAcWPceXNQtf13wm3oNiFtfD6tdU92PV",
+    "metadata": {
+        "name": "tipping",
+        "version": "0.1.0",
+        "spec": "0.1.0",
+        "description": "Created with Anchor"
+    },
     "instructions": [
         {
             "name": "initializeUser",
+            "discriminator": [
+                111,
+                17,
+                185,
+                250,
+                60,
+                122,
+                38,
+                254
+            ],
             "accounts": [
                 {
                     "name": "signer",
-                    "isMut": true,
-                    "isSigner": true
+                    "writable": true,
+                    "signer": true
                 },
                 {
                     "name": "userStats",
-                    "isMut": true,
-                    "isSigner": false
+                    "writable": true,
+                    "pda": {
+                        "seeds": [
+                            {
+                                "kind": "const",
+                                "value": [
+                                    117,
+                                    115,
+                                    101,
+                                    114,
+                                    45,
+                                    115,
+                                    116,
+                                    97,
+                                    116,
+                                    115
+                                ]
+                            },
+                            {
+                                "kind": "account",
+                                "path": "signer"
+                            }
+                        ]
+                    }
                 },
                 {
                     "name": "systemProgram",
-                    "isMut": false,
-                    "isSigner": false
+                    "address": "11111111111111111111111111111111"
                 }
             ],
             "args": []
         },
         {
             "name": "tip",
+            "discriminator": [
+                77,
+                164,
+                35,
+                21,
+                36,
+                121,
+                213,
+                51
+            ],
             "accounts": [
                 {
                     "name": "signer",
-                    "isMut": true,
-                    "isSigner": true
+                    "writable": true,
+                    "signer": true
                 },
                 {
                     "name": "recipient",
-                    "isMut": true,
-                    "isSigner": false
+                    "writable": true
                 },
                 {
                     "name": "userStats",
-                    "isMut": true,
-                    "isSigner": false
+                    "writable": true,
+                    "pda": {
+                        "seeds": [
+                            {
+                                "kind": "const",
+                                "value": [
+                                    117,
+                                    115,
+                                    101,
+                                    114,
+                                    45,
+                                    115,
+                                    116,
+                                    97,
+                                    116,
+                                    115
+                                ]
+                            },
+                            {
+                                "kind": "account",
+                                "path": "signer"
+                            }
+                        ]
+                    }
                 },
                 {
                     "name": "systemProgram",
-                    "isMut": false,
-                    "isSigner": false
+                    "address": "11111111111111111111111111111111"
                 }
             ],
             "args": [
@@ -58,6 +128,21 @@ export type Tipping = {
         }
     ],
     "accounts": [
+        {
+            "name": "userStats",
+            "discriminator": [
+                176,
+                223,
+                136,
+                27,
+                122,
+                79,
+                32,
+                227
+            ]
+        }
+    ],
+    "types": [
         {
             "name": "userStats",
             "type": {
@@ -83,53 +168,117 @@ export type Tipping = {
 
 export const IDL: Tipping = {
     "address": "CeA7jNGCbhQvhAcWPceXNQtf13wm3oNiFtfD6tdU92PV",
-    "metadata": {},
-    "version": "0.1.0",
-    "name": "tipping",
+    "metadata": {
+        "name": "tipping",
+        "version": "0.1.0",
+        "spec": "0.1.0",
+        "description": "Created with Anchor"
+    },
     "instructions": [
         {
             "name": "initializeUser",
+            "discriminator": [
+                111,
+                17,
+                185,
+                250,
+                60,
+                122,
+                38,
+                254
+            ],
             "accounts": [
                 {
                     "name": "signer",
-                    "isMut": true,
-                    "isSigner": true
+                    "writable": true,
+                    "signer": true
                 },
                 {
                     "name": "userStats",
-                    "isMut": true,
-                    "isSigner": false
+                    "writable": true,
+                    "pda": {
+                        "seeds": [
+                            {
+                                "kind": "const",
+                                "value": [
+                                    117,
+                                    115,
+                                    101,
+                                    114,
+                                    45,
+                                    115,
+                                    116,
+                                    97,
+                                    116,
+                                    115
+                                ]
+                            },
+                            {
+                                "kind": "account",
+                                "path": "signer"
+                            }
+                        ]
+                    }
                 },
                 {
                     "name": "systemProgram",
-                    "isMut": false,
-                    "isSigner": false
+                    "address": "11111111111111111111111111111111"
                 }
             ],
             "args": []
         },
         {
             "name": "tip",
+            "discriminator": [
+                77,
+                164,
+                35,
+                21,
+                36,
+                121,
+                213,
+                51
+            ],
             "accounts": [
                 {
                     "name": "signer",
-                    "isMut": true,
-                    "isSigner": true
+                    "writable": true,
+                    "signer": true
                 },
                 {
                     "name": "recipient",
-                    "isMut": true,
-                    "isSigner": false
+                    "writable": true
                 },
                 {
                     "name": "userStats",
-                    "isMut": true,
-                    "isSigner": false
+                    "writable": true,
+                    "pda": {
+                        "seeds": [
+                            {
+                                "kind": "const",
+                                "value": [
+                                    117,
+                                    115,
+                                    101,
+                                    114,
+                                    45,
+                                    115,
+                                    116,
+                                    97,
+                                    116,
+                                    115
+                                ]
+                            },
+                            {
+                                "kind": "account",
+                                "path": "signer"
+                            }
+                        ]
+                    }
                 },
                 {
                     "name": "systemProgram",
-                    "isMut": false,
-                    "isSigner": false
+                    "address": "11111111111111111111111111111111"
                 }
             ],
             "args": [
@@ -141,6 +290,21 @@ export const IDL: Tipping = {
         }
     ],
     "accounts": [
+        {
+            "name": "userStats",
+            "discriminator": [
+                176,
+                223,
+                136,
+                27,
+                122,
+                79,
+                32,
+                227
+            ]
+        }
+    ],
+    "types": [
         {
             "name": "userStats",
             "type": {
