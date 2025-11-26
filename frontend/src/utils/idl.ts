@@ -1,4 +1,6 @@
 export type Tipping = {
+    "address": string;
+    "metadata": any;
     "version": "0.1.0",
     "name": "tipping",
     "instructions": [
@@ -80,6 +82,8 @@ export type Tipping = {
 };
 
 export const IDL: Tipping = {
+    "address": "CeA7jNGCbhQvhAcWPceXNQtf13wm3oNiFtfD6tdU92PV",
+    "metadata": {},
     "version": "0.1.0",
     "name": "tipping",
     "instructions": [
