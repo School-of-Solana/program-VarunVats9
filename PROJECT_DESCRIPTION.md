@@ -1,6 +1,6 @@
 # Project Description
 
-**Deployed Frontend URL:** https://program-VarunVats9.vercel.app/
+**Deployed Frontend URL:** https://program-steel.vercel.app/
 
 **Solana Program ID:** `CeA7jNGCbhQvhAcWPceXNQtf13wm3oNiFtfD6tdU92PV`
 
